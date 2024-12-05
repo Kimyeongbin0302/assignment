@@ -12,13 +12,13 @@ C++로 작성된 간단한 숫자 맞추기 게임입니다. `ncurses` 라이브
 ## 설치 및 실행 방법
 ```bash
 # 패키지 업데이트
-sudo apt-get update
+$ sudo apt-get update
 
 # ncurses 라이브러리 설치
-sudo apt-get install libncurses5-dev libncursesw5-dev
+$ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 # 코드 컴파일
-g++ -o number_guessing_game number_guessing_game.cpp -lncurses
+$ g++ -o number_guessing_game number_guessing_game.cpp -lncurses
 
 # 프로그램 실행
-./number_guessing_game
+$ ./number_guessing_game
