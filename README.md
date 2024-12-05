@@ -22,7 +22,3 @@ g++ -o number_guessing_game number_guessing_game.cpp -lncurses
 
 # 프로그램 실행
 ./number_guessing_game
-
-## 필요 라이브러리
-- **C++ 표준 라이브러리**: `cstdlib`, `ctime`, `iostream` 등.
-- **ncurses 라이브러리**: 터미널 기반 입출력 처리를 위한 라이브러리.
